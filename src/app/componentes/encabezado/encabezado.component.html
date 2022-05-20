@@ -1,0 +1,21 @@
+<!-- Inicio de BODY -->
+<nav class="navbar navbar-dark bg-dark">
+	<!-- Título de la barra -->
+	<div class="container">
+		<a class="navbar-brand" href="index.html"> {{miPortfolio.name}} </a>
+		<a href= {{miPortfolio.linkedinlnk}} target="_blank"> <i class="bi bi-linkedin"> {{miPortfolio.linkedin}} </i> </a>
+		<a href= {{miPortfolio.emaillnk}} target="_blank"> <i class="bi bi-envelope-fill"> {{miPortfolio.email}} </i> </a>
+		<!-- <a href = {{miPortfolio.githublnk}} target="_blank"> <i class="bi-github" role="img" aria-label="GitHub"> {{miPortfolio.github}} </i> </a> -->
+		<!-- <a href = {{miPortfolio.gitlablnk}} target="_blank"> <i class="bi bi-git" role="img" aria-label="GitLab"> {{miPortfolio.gitlab}} </i> </a> -->
+	</div>
+</nav>
+
+<div class="container" >	
+	<div align= "center">
+		<img [src]= "miPortfolio.backImage" class= "profile-background" alt="Argentina Programa Banner" class="img-fluid" width="1100" height="500" />
+	</div>
+	<div> 
+		<img [src]= "miPortfolio.imagePortfolio" alt="monje programador" class= "profile-image" class="float-start" class="rounded-circle" height=”200” width=200” />
+		<!-- img src="https://live.staticflickr.com/1293/726649606_8b797c4000.jpg" -->
+	</div>	
+</div>

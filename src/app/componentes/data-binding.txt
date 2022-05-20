@@ -1,0 +1,16 @@
+
+
+	DATA-BINDING
+
+	Databinding que es la forma que tiene Angular para permitirnos mostrar contenido dinámico.
+ 	Podríamos traducir el databinding como "comunicación" entre nuestro código HTML (template.html) y nuestra lógica de programación (componente.ts).
+	El databinding, nos abstrae de la lógica get/set asociada a insertar y actualizar valores en el HTML y, 
+	de convertir las respuestas de usuario (inputs, clicks, etc) en acciones concretas.
+
+	Angular nos proporciona varias maneras de comunicación entre archivos.  Estas formas nos permiten:
+    1. Mostrar información en el HTML, también conocido como template, desde el archivo .ts.
+		(Interpolation - [target]="expression" - Desde el componente hacia el DOM)
+    2. Pasar información al archivo TypeScript dada por el usuario al hacer click en un botón, cambiar un menú, completar un input, etc. Es lo que se conoce como ''reaccionar a eventos del usuario''.
+		(Event - on-target="statement" - Desde el DOM hacia el componente)
+    3. Combinar a la misma vez ambas formas de intercambio de información.
+		(Two-way - bindon-target="expression" - En ambos sentidos)

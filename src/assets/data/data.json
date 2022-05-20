@@ -1,0 +1,58 @@
+
+{
+
+	"name": "Pablo Mussis",
+	"linkedin": "linkedin",
+	"linkedinlnk": "https://www.linkedin.com/in/pablomussis/",
+	"email": "Email",
+	"emaillnk": "mailto:mussisp@gmail.com",
+	"backImage": "./assets/argentinaprograma_banner.png",
+	"backImageBanner": "https://cdn-sp.radionacional.com.ar/wp-content/uploads/2021/12/Diseno-sin-titulo-1-1.png",
+	"image": "./assets/monjeProgramador.jpeg",
+	"imagePortfolio": "https://live.staticflickr.com/1293/726649606_8b797c4000.jpg",
+
+	"acercade": "Acerca de",
+	"acercade1": "Soy docente de la educación secundaria técnica profesional de la pcia de Buenos Aires, desde hace 20 años.",
+	"acercade2": "Interesado por la capacitación, la divulgación y el software libre, en el marco de las buenas prácticas.",
+
+	"experiencia": "Experiencia",
+	"experiencia1": "2000 - actualidad",
+	"experiencia1bis": "Desarrollador de aplicaciones | Programador independiente",
+	"experiencia1lnk": "https://www.linkedin.com/in/pablomussis/",
+	"experiencia2bis": "Profesor de E.S.T. N° 2 de Florencio Varela Bs.As | Educación Técnico Profesional | D.G.C. y E.",
+	"experiencia2": "2002 - actualidad",
+	"experiencia2lnk": "https://www.instagram.com/tecnican2fv/",
+
+	"educacion": "Educación",
+	"educacion1": "2021 - 2022",
+	"educacion1bis": "Web Full Stack Developer Jr | Argentina Programa",
+	"educacion2": "2003 - 2005",
+	"educacion2bis": "Profesor en Disciplinas Industriales | INSPT UTN",
+	"educacion3": "1999 - 2001",
+	"educacion3bis": "Analista de Sistemas de computación | Dr. E. Braun Menendez",
+
+	"skills": "Hard & Soft Skills",
+	"skills1": "GNU/Linux, Python3, Git, GitHUB, GitLAB",
+	"skills2": "SQL, SQLite3, MySQL, Redis",
+	"skills3": "Inglés técnico",
+	"skills4": "Investigador, autodidacta, divulgador, mentorias: en continua formación",
+	"skills5": "Trabajos individuales y colaborativos",
+
+	"proyectos": "Proyectos",
+	"proyecto1": "Proyecto integrador",
+	"proyecto1bis": "2021 - 2022 | Portfolio Integral | Web Full Stack Developer Jr | Argentina Programa",
+	"proyecto1lnk": "https://github.com/miportfolio",
+	"proyecto2": "Lista de contactos v1.0",
+	"proyecto2bis": "2019 | Desarrollo de un CRUD (C.L.I.) con Python 3.7.3 y SQLite 3 en GNU/Linux Debian 10.",
+	"proyecto2lnk": "https://github.com/pablomussis/contactos_v1.0",
+
+	"proyecto3": "Lista de contactos v0.1",
+	"proyecto3bis": "2017 | Desarrollo de un CRUD (C.L.I.) con Python 2.7 y SQLite 3 en GNU/Linux Debian 8.",
+	"proyecto3lnk": "https://github.com/pablomussis/contactos_v0.1",
+
+	"pie": "Repositorios",
+	"piegithub": "GitHub",
+	"piegithublnk": "https://github.com/pablomussis",
+	"piegitlab": "GitLab",
+	"piegitlablnk": "https://gitlab.com/pablomussis"
+}
