@@ -9,7 +9,8 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class PortfolioService {
-  url: string = "http://npinti.ddns.net:9008/api/";
+  //url: string = "http://npinti.ddns.net:9008/api/";
+  //url: string = "localhost";
 
   // Dentro del constructor importamos HttpClient
   constructor(private http:HttpClient) { }

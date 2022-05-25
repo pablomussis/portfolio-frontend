@@ -8,7 +8,8 @@ import { map } from 'rxjs/operators';
   providedIn: 'root'
 })
 export class AutenticacionService {
-  url="http://npinti.ddns.net:9008/api/login";
+  //url="http://npinti.ddns.net:9008/api/login";
+  url="localhost";
   currentUserSubject: BehaviorSubject<any>;
   constructor(private http: HttpClient) { 
     console.log("El servicio de autenticación está corriendo !!");

@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { HttpEvent, HttpHandler, HttpInterceptor, HttpRequest } from '@angular/common/http';
-import { Observable, observable } from 'rxjs';
+import { Observable } from 'rxjs';
 import { AutenticacionService } from './autenticacion.service';
 
 @Injectable({
@@ -8,11 +8,11 @@ import { AutenticacionService } from './autenticacion.service';
 })
 export class InterceptorService implements HttpInterceptor{
 
-  constructor() { }
+  constructor(private AutenticacionService: AutenticacionService) { }
 
   intercept(req: HttpRequest<any>, next: HttpHandler): Observable<HttpEvent<any>> {
     
-    var currentUser = this.autenticacionServicio.UsuarioAutenticado;
+    var currentUser = this.AutenticacionService.UsuarioAutenticado;
     if (currentUser && currentUser.accessToken)
     {
       req = req.clone({
